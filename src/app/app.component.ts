@@ -17,17 +17,14 @@ export class AppComponent {
 
   getFirstNum(value: string){
     this.firstNum = Number(value);
-    console.log(this.firstNum);
   }
 
   getSecondNum(value: string){
     this.secondNum = Number(value);
-    console.log("Second Num: " + this.secondNum);
   }
 
   getOperation(value : string){
     this.operation = value;
-    console.log(this.operation);
   }
 
   toggleDarkMode(){
